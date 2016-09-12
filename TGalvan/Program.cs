@@ -4,6 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.IO;
+using System.Reflection;
+using System.Resources;
+
 namespace TGalvan
 {
     static class Program
@@ -14,6 +18,9 @@ namespace TGalvan
         [STAThread]
         static void Main()
         {
+
+            ResourceManager rm = new ResourceManager("Resources", typeof(TGalvan.Program).Assembly);
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

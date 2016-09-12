@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Config.txt" />
+    <Content Include="Resources\es-ES\TGalvan.resources.dll" />
     <Content Include="Resources\images\GALVAN.ICO" />
     <Content Include="Resources\images\tecnologiagalvan.gif" />
   </ItemGroup>
