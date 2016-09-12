@@ -61,20 +61,6 @@ namespace TGalvan.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a # Archivo de configuración de la Aplicación TGalvan
-        ///# Datos de identificación
-        ///Version=1.0.0
-        ///Cliente=EAFF
-        ///
-        ///.
-        /// </summary>
-        internal static string Config {
-            get {
-                return ResourceManager.GetString("Config", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
         internal static System.Drawing.Icon GALVAN {

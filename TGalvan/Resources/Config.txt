@@ -1,5 +1,8 @@
 ﻿# Archivo de configuración de la Aplicación TGalvan
-# Datos de identificación
+# Datos de identificación iniciales
 Version=1.0.0
 Cliente=EAFF
-
+Idioma=es
+NumIdioma=2
+Idioma1=es
+Idioma2=en

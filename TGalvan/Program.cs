@@ -19,8 +19,12 @@ namespace TGalvan
         static void Main()
         {
 
-            ResourceManager rm = new ResourceManager("Resources", typeof(TGalvan.Program).Assembly);
+            string directory = Environment.CurrentDirectory;
+            ResourceManager IniConfig = ResourceManager.CreateFileBasedResourceManager("IniConfig", directory + "\\Resources", null);
+            string lang = IniConfig.GetString("Idioma");
             
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
