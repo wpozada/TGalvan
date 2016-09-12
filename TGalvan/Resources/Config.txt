@@ -2,7 +2,7 @@
 # Datos de identificación iniciales
 Version=1.0.0
 Cliente=EAFF
-Idioma=es
+Idioma=es-ES
 NumIdioma=2
-Idioma1=es
-Idioma2=en
+Idioma1=es-ES
+Idioma2=en-US

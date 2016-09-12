@@ -61,12 +61,31 @@ namespace TGalvan.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cliente_logo {
+            get {
+                object obj = ResourceManager.GetObject("cliente_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
         internal static System.Drawing.Icon GALVAN {
             get {
                 object obj = ResourceManager.GetObject("GALVAN", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Se produjo un error al cargar la configuración inicial del programa, verificar la siguiente ruta: .
+        /// </summary>
+        internal static string Iniconfig_error_msg {
+            get {
+                return ResourceManager.GetString("Iniconfig_error_msg", resourceCulture);
             }
         }
         
